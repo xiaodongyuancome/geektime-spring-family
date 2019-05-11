@@ -26,6 +26,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-jdbc</artifactId>
+			<!--去掉HikariCP-->
 			<exclusions>
 				<exclusion>
 					<artifactId>HikariCP</artifactId>

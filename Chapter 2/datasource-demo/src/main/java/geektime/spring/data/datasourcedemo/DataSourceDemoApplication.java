@@ -26,6 +26,7 @@ public class DataSourceDemoApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
+		log.info("我的spring boot 启动了！！！");
 		showConnection();
 		showData();
 	}
