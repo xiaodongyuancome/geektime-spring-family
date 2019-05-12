@@ -41,7 +41,7 @@ public class JpaDemoApplication implements ApplicationRunner {
 	@Transactional
 	public void run(ApplicationArguments args) throws Exception {
 		initOrders();
-		findOrders();
+//		findOrders();
 	}
 
 	private void initOrders() {
